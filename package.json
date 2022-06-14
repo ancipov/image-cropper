@@ -1,18 +1,18 @@
 {
-  "name": "ngx-image-cropper-workspace",
+  "name": "image-cropper-workspace",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:lib": "ng build ngx-image-cropper --watch",
+    "start:lib": "ng build image-cropper --watch",
     "build": "ng build",
-    "build:lib": "ng build ngx-image-cropper",
-    "publish:lib": "npm run build:lib && npm run copy:files && npm publish ./dist/ngx-image-cropper",
-    "pack:lib": "npm pack ./projects/ngx-image-cropper",
-    "test": "ng test ngx-image-cropper",
-    "test:ci": "ng test ngx-image-cropper --bail",
+    "build:lib": "ng build image-cropper",
+    "publish:lib": "npm run build:lib && npm run copy:files && npm publish ./dist/image-cropper",
+    "pack:lib": "npm pack ./projects/image-cropper",
+    "test": "ng test image-cropper",
+    "test:ci": "ng test image-cropper --bail",
     "lint": "ng lint",
-    "copy:files": "cp ./README.md ./dist/ngx-image-cropper && cp ./LICENSE ./dist/ngx-image-cropper"
+    "copy:files": "cp ./README.md ./dist/image-cropper && cp ./LICENSE ./dist/image-cropper"
   },
   "private": true,
   "dependencies": {
