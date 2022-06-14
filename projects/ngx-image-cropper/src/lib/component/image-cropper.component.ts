@@ -230,7 +230,7 @@ export class ImageCropperComponent implements OnChanges, OnInit {
 
   private setLoadedImage(loadedImage: LoadedImage): void {
     this.loadedImage = loadedImage;
-    this.safeImgDataUrl = this.sanitizer.bypassSecurityTrustResourceUrl(loadedImage.transformed.base64);
+    this.safeImgDataUrl = loadedImage.transformed.base64;
     this.cd.markForCheck();
   }
 
