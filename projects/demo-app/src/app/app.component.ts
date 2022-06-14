@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Dimensions, ImageCroppedEvent, ImageTransform } from 'ngx-image-cropper';
+import { Dimensions, ImageCroppedEvent, ImageTransform } from 'ngx-image-cropper-workspace';
 
 @Component({
   selector: 'app-root',

@@ -1,20 +1,20 @@
 {
   "name": "ngx-image-cropper-workspace",
-  "version": "0.0.0",
+  "version": "5.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:lib": "ng build ngx-image-cropper --watch",
+    "start:lib": "ng build ngx-image-cropper-workspace --watch",
     "build": "ng build",
-    "build:lib": "ng build ngx-image-cropper",
-    "publish:lib": "npm run build:lib && npm run copy:files && npm publish ./dist/ngx-image-cropper",
-    "pack:lib": "npm pack ./projects/ngx-image-cropper",
-    "test": "ng test ngx-image-cropper",
-    "test:ci": "ng test ngx-image-cropper --bail",
+    "build:lib": "ng build ngx-image-cropper-workspace",
+    "publish:lib": "npm run build:lib && npm run copy:files && npm publish ./dist/ngx-image-cropper-workspace",
+    "pack:lib": "npm pack ./projects/ngx-image-cropper-workspace",
+    "test": "ng test ngx-image-cropper-workspace",
+    "test:ci": "ng test ngx-image-cropper-workspace --bail",
     "lint": "ng lint",
-    "copy:files": "cp ./README.md ./dist/ngx-image-cropper && cp ./LICENSE ./dist/ngx-image-cropper"
+    "copy:files": "cp ./README.md ./dist/ngx-image-cropper-workspace && cp ./LICENSE ./dist/ngx-image-cropper-workspace"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.1.6",
     "@angular/common": "~10.1.6",
