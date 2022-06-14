@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "image-cropper": [
-        "dist/image-cropper"
+      "ngx-image-cropper": [
+        "dist/ngx-image-cropper"
       ],
-      "image-cropper/*": [
-        "dist/image-cropper/*"
+      "ngx-image-cropper/*": [
+        "dist/ngx-image-cropper/*"
       ]
     }
   },

@@ -3,17 +3,17 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "image-cropper": {
+    "ngx-image-cropper": {
       "projectType": "library",
-      "root": "projects/image-cropper",
-      "sourceRoot": "projects/image-cropper/src",
+      "root": "projects/ngx-image-cropper",
+      "sourceRoot": "projects/ngx-image-cropper/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/image-cropper/tsconfig.lib.json",
-            "project": "projects/image-cropper/ng-package.json"
+            "tsConfig": "projects/ngx-image-cropper/tsconfig.lib.json",
+            "project": "projects/ngx-image-cropper/ng-package.json"
           }
         },
         "test": {
@@ -26,8 +26,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/image-cropper/tsconfig.lib.json",
-              "projects/image-cropper/tsconfig.spec.json"
+              "projects/ngx-image-cropper/tsconfig.lib.json",
+              "projects/ngx-image-cropper/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
