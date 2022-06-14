@@ -1,16 +1,16 @@
 {
-    "name": "ngx-image-cropper",
+    "name": "image-cropper",
     "version": "5.0.0",
     "description": "An image cropper for Angular",
-    "author": "Martijn Willekens",
+    "author": "Alexander Antsypov",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mawi137/ngx-image-cropper.git"
+        "url": "https://github.com/ancipov/image-cropper.git"
     },
     "bugs": {
-        "url": "https://github.com/Mawi137/ngx-image-cropper/issues"
+        "url": "https://github.com/ancipov/image-cropper/issues"
     },
-    "homepage": "https://github.com/Mawi137/ngx-image-cropper",
+    "homepage": "https://github.com/ancipov/image-cropper",
     "keywords": [
         "angular",
         "angular 9",
